@@ -1,0 +1,66 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: block;
+    position: relative;
+    top: 1.3em;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+.about{
+    display: flex;
+    flex-direction:row;
+    position:absolute;
+    top:7px;
+    right:2%;
+}
+#about{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+#about:hover{
+  background-color:white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.header{
+    display: block;
+    height: 40vh;
+   background-color: gainsboro;
+    
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 5em;
+}
+input{
+    width: 60%;
+    border: 2px solid black;
+    height: 5vh;
+    margin-top: 5em;
+    position: relative;
+    left: 20%;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#search{
+    position: relative;
+    left: 19%;
+    font-size: 2em;
+    margin-top: 2.3em;
+    color: white;
+}
+#productsList{
+    display: block;
+    position: relative;
+    left:30%;
+}
+p{
+    font-size: larger;
+}
